@@ -1,8 +1,8 @@
 html {
   height: 100%;
-  
+  background:#ffffff;
 }
-
+a{color:#ff0000;}
 body {
   height: inherit;
   margin: 0;

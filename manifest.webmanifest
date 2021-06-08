@@ -1,5 +1,5 @@
 {
-  "background_color": "blue",
+  "background_color": "light-grey",
   "description": "Shows random fox pictures. Hey, at least it isn't cats.",
   "display": "fullscreen",
   "icons": [
@@ -11,5 +11,5 @@
   ],
   "name": "welcome to Demo Web",
   "short_name": "3schools",
-  "start_url": "index.html"
+  "start_url": "https://helpernetwork.blogspot.com"
 }

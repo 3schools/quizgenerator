@@ -1,7 +1,7 @@
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('sw.js')
+    .register('https://raw.githubusercontent.com/3schools/quizgenerator/main/sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 

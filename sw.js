@@ -3,9 +3,9 @@ self.addEventListener('install', (e) => {
     caches.open('fox-store').then((cache) => cache.addAll([
       'index.html',
       'fox-icon.png',
-      'index.js',
-      'style.css',
-      'fox1.jpg',
+      'https://raw.githubusercontent.com/3schools/quizgenerator/main/index.js',
+      'https://raw.githubusercontent.com/3schools/quizgenerator/main/style.css',
+      'https://github.com/3schools/quizgenerator/blob/78c451731486f5a5c374a94649e780759757d0c2/fox1.jpg',
       'fox2.jpg',
       'fox3.jpg',
       'fox4.jpg',

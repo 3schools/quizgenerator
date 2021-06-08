@@ -2,7 +2,7 @@ self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('fox-store').then((cache) => cache.addAll([
       'index.html',
-      'fox-icon.png',
+      'http://4.bp.blogspot.com/-iv5mn-sqnlA/YL8F5Ehq-6I/AAAAAAAABos/m3Yj-LLaVnceGBgVNy-E2stfLmkr8YPIgCK4BGAYYCw/s1600/ask.png',
       'https://raw.githubusercontent.com/3schools/quizgenerator/main/index.js',
       'https://raw.githubusercontent.com/3schools/quizgenerator/main/style.css',
       'https://github.com/3schools/quizgenerator/blob/78c451731486f5a5c374a94649e780759757d0c2/fox1.jpg',

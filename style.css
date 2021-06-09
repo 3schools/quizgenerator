@@ -43,7 +43,7 @@ display:inline-block;
 .appbody>article{
 margin:0px 1px 2px 1px;
 }
-.iframe {
+.iframes {
       position: fixed;
       background:transparent;
       border:none;
@@ -56,20 +56,6 @@ margin:0px 1px 2px 1px;
 .btn{
    float:left;
    margin-left:9px;
-}
-.appfooter{
-position:fixed;
-bottom:0;
-left:0;
-right:0;
-padding-top:5px;
-background-color:#d1e0e0;
-}
-.appfooter>a{
-font-size:28px;
-margin-left:18px;
-margin-right:17px;
-text-decoration:none;
 }
 .a{background-color:#ccffeb;}.b{background-color:#ffffcc; }.c{background-color:#ffcce6; }.d{background-color:#ccb3ff; }.e{background-color:#ffffb3; }
   @media (min-width:900px){

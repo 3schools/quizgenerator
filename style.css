@@ -54,7 +54,7 @@ display:inline-block;
   @media (min-width:900px){
     .appbody{
      display:inline-block;
-     width:47%;
+     max-width:47%!important;
     }
     
   }

@@ -6,10 +6,10 @@ self.addEventListener('install', (e) => {
       'quiz-generator.png',
       'index.js',
       'style.css',
-      'ask1.jpg',
-      'ask2.jpg',
-      'ask3.jpg',
-      'ask4.jpg',
+      'quiz1.jpg',
+      'quiz2.jpg',
+      'quiz3.jpg',
+      'quiz4.jpg',
     ])),
   );
 });

@@ -1,5 +1,5 @@
 const images = ['ask1', 'ask2', 'ask3', 'ask4'];
-const imgElem = document.querySelector('img');
+const imgElem = document.querySelector('#ask3schools');
 
 function randomValueFromArray(array) {
   const randomNo = Math.floor(Math.random() * array.length);

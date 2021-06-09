@@ -36,7 +36,9 @@ font-size:15px;
 color:#1a1aff;
 display:inline-block;
 }
-a{text-decoration:none;}
+a:link{
+  text-decoration: none!important;
+}
 .appbody>article{
 margin:0px 1px 2px 1px;
 }

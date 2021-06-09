@@ -1,7 +1,21 @@
+const images = ['ask1', 'ask2', 'ask3', 'ask4'];
+const imgElem = document.querySelector('img');
+
+function randomValueFromArray(array) {
+  const randomNo = Math.floor(Math.random() * array.length);
+  return array[randomNo];
+}
+
+setInterval(() => {
+  const randomChoice = randomValueFromArray(images);
+  imgElem.src = `${randomChoice}.jpg`;
+}, 2000);
+
+// Register service worker to control making site work offline
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('https://raw.githubusercontent.com/3schools/quizgenerator/main/sw.js')
+    .register('sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 
@@ -27,11 +41,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
     // Wait for the user to respond to the prompt
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('User Installed the app');
+        console.log('User accepted the A2HS prompt');
       } else {
-        console.log('User did not install the app');
+        console.log('User dismissed the A2HS prompt');
       }
       deferredPrompt = null;
     });
   });
-});
+}); 

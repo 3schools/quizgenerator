@@ -2,7 +2,7 @@ self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('quiz-generator').then((cache) => cache.addAll([
       'index.html',
-      'gk.html',
+      'v1.html',
       'quiz-generator.png',
       'index.js',
       'style.css',

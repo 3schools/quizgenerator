@@ -1,15 +1,15 @@
 {
-  "background_color": "light-grey",
-  "description": "Shows random fox pictures. Hey, at least it isn't cats.",
+  "background_color": "#99d6ff",
+  "description": "Ask 3schools is about education, gk, questions and answers",
   "display": "fullscreen",
   "icons": [
     {
-      "src": "http://4.bp.blogspot.com/-iv5mn-sqnlA/YL8F5Ehq-6I/AAAAAAAABos/m3Yj-LLaVnceGBgVNy-E2stfLmkr8YPIgCK4BGAYYCw/s1600/ask.png",
+      "src": "ask.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "name": "welcome to Demo Web",
-  "short_name": "3schools",
-  "start_url": "https://helpernetwork.blogspot.com"
-}
+  "name": "Ask",
+  "short_name": "Ask 3schools",
+  "start_url": "index.html"
+} 

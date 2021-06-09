@@ -10,11 +10,6 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
 <body>
-<style>
- *{box-sizing:border-box;}
- body{margin:3px 2px;font-family:serif;}
- h1{font-size:15px;font-family:serif;}   
-</style>
 <a href="index.html"><button class="appbtn">🔙</button></a>
 <h1 style="font-size:15px;">Multiple Choice HTML Quiz Code Generator for Blogger/Website in minutes for free</h1>
 <script>
@@ -24,6 +19,19 @@ window.onbeforeunload = function() {
 </script>
 <style type="text/css">
 *{box-sizing:border-box;}
+body{margin:3px 2px;font-family:serif;}
+ h1{font-size:15px;font-family:serif;}   
+.apu_quiz_box{
+        background-color: #F5F5F5;
+        border: 1px solid #EDEDED;
+        padding:4px;
+        border-radius: 10px;
+        margin-top:5px;
+        min-width: 238px;
+        width:100%!important;
+  display:inline-block;
+    }
+
 .apu_quiz_question{
         background-color: #FEFEFE;
         border:1px solid #346ee3;
@@ -36,31 +44,20 @@ window.onbeforeunload = function() {
         width:99.33%;
          color:#346ee3;
     }
-.apu_quiz_box{
-        background-color: #F5F5F5;
-        border: 1px solid #EDEDED;
-        padding:4px;
-        border-radius: 10px;
-        margin-top:5px;
-        min-width: 238px;
-        width:100%!important;
-        display:inline-block;
-        box-shadow:0px 0px 4px 0px #aaa;
-       font-family:serif;
-    }
-
 .apu_quiz_answer{
         background-color: #FEFEFE;
         border:1px solid #2efee3;
         font: 12px/12px "HelveticaNeue", Helvetica, Arial, sans-serif;
-        margin: 1%;
+        margin: 2%;
         padding:2%;
         box-shadow: 2px 1px 4px #999999 ;
         border-radius:47px;
-        width:32%;
+        width:45%;
         display:inline-block;
          color:#346ee3;
     }
+   
+        
     .apu_quiz_question:focus,.apu_quiz_answer:focus,.apu_quiz_Ranswer:focus,.apu_quiz_answer:hover{
         outline:none;
         box-shadow: 0px 0px 3px #03a712 inset!important;

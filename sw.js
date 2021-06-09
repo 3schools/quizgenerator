@@ -1,7 +1,8 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('fox-store').then((cache) => cache.addAll([
+    caches.open('ask-3schools').then((cache) => cache.addAll([
       'index.html',
+      'gk.html',
       'ask.png',
       'index.js',
       'style.css',

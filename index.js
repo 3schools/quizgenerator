@@ -1,4 +1,4 @@
-const images = ['ask1', 'ask2', 'ask3', 'ask4'];
+const images = ['quiz1', 'quiz2', 'quiz3', 'quiz4'];
 const imgElem = document.querySelector('#ask3schools');
 
 function randomValueFromArray(array) {
@@ -9,7 +9,7 @@ function randomValueFromArray(array) {
 setInterval(() => {
   const randomChoice = randomValueFromArray(images);
   imgElem.src = `${randomChoice}.jpg`;
-}, 2000);
+}, 1000);
 
 // Register service worker to control making site work offline
 
@@ -41,9 +41,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
     // Wait for the user to respond to the prompt
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('User Download ask 3schools');
+        console.log('User Download Quiz Generator');
       } else {
-        console.log('User will download ask 3schools');
+        console.log('User will download Quiz Generator');
       }
       deferredPrompt = null;
     });

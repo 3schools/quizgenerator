@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "quiz-generator.jpg",
+      "src": "quiz-generator.png",
       "sizes": "192x192",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "name": "Quiz Generator",

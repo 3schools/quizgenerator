@@ -6,6 +6,10 @@ margin:0;
 padding:0;
 background-color:#f1f1f1;
 }
+body>a{
+  text-decoration: none!important;
+  cursor: pointer;
+}
 .ourapp {
 background-color:#4dff4d;
 margin:2px 2px 0px 2px;
@@ -35,10 +39,6 @@ padding:1px 9px;
 font-size:15px;
 color:#1a1aff;
 display:inline-block;
-}
-a{
-  text-decoration: none!important;
-  cursor: pointer;
 }
 .appbody>article{
 margin:0px 1px 2px 1px;

@@ -36,9 +36,6 @@ font-size:15px;
 color:#1a1aff;
 display:inline-block;
 }
-.appbody>article{
-margin:0px 1px 2px 1px;
-}
 .iframe {
       position: fixed;
       background:transparent;
@@ -57,6 +54,7 @@ margin:0px 1px 2px 1px;
   @media (min-width:900px){
     .appbody{
      display:inline-block;
+     width:47%;
     }
     
   }

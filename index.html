@@ -42,15 +42,21 @@ box-shadow:0 0 8px #000;
   .typeapu p:hover{box-shadow:0px 0px 8px #000 inset;}
 .typeapu a{
 text-decoration:none;
-
 }
+.ani{
+animation: fadeInOut 3s linear infinite; 
+}
+@keyframes fadeInOut{0%{opacity: 0;}50%{opacity: 2;}100%{opacity: 0;}}
   </style>
 <div class="appb">
  <div id="appb"><button class="btn add-button appbtn">📱 install our app</button>
     <button class="btn appbtn" onclick="document.querySelector('.appb').style.display='none';document.querySelector('#iframe').classList.add('iframe')">🏠 Home Page</button>
  </div>
 <img id="ask3schools" style="height:35px;width:35px;margin:4px;" src="quiz1.jpg" alt="quiz generator">
- <div class="typeapu">
+<div class="typeapu">
+ <div class="typea ani"><h5><p><a href="#" >NEW VERSION is Available !</a></p></h5>
+ </div> </div>
+<div class="typeapu">
 <div class="typea"><h5>Quiz Generator Type A</h5>
 <p><a href="v1.html">VERSION 1</a> =>> <a href="#">DEMO</a></p>
 <p><a href="#">VERSION 2</a> =>> <a href="#">DEMO</a></p>

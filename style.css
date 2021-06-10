@@ -34,37 +34,6 @@ box-shadow:1px 5px 10px #000000 inset;
    float:left;
    margin-left:9px;
 }
-.typeapu{
-        background-color: #F5F5F5;
-        border: 1px solid #EDEDED;
-        padding:7px 4px;
-        border-radius:5px;
-        margin-top:5px;
-        min-width: 238px;
-        width:100%!important;
-        display:black;
-    }
-.typeapu .typea{
-text-align:center;
-border:1px solid green;
-margin:5px;
-padding:8px;
-}
-.typeapu .typea span{color:#ff00ff}
-.typeapu .typea h5{margin-top:-9px;color:#fff;background:#ff0000;padding:6px 9px;max-width:80%;border-bottom-right-radius:5px;border:2px inset black;}
-.typeapu p{
-padding:5px 9px;
-background-color:#ddd;
-margin:5px;
-margin-top:10px;
-border:1px solid #fcfcfc;
-border-radius:5px;
-box-shadow:0 0 8px #000;
-}
-  .typeapu p:hover{box-shadow:0px 0px 8px #000 inset;}
-.typeapu a{
-text-decoration:none;
-}
 .a{background-color:#ccffeb;}.b{background-color:#ffffcc; }.c{background-color:#ffcce6; }.d{background-color:#ccb3ff; }.e{background-color:#ffffb3; }
   @media (min-width:900px){
     .appbody{
